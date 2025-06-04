@@ -1,0 +1,261 @@
+body {
+  background-color: hsl(60, 80%, 42%);
+  overflow: scroll;
+}
+
+#link1 {
+  text-decoration: none;
+  color: white;
+  display: inline;
+}
+
+#link1 #hh1 {
+  margin-left: 40px;
+}
+
+.bottle {
+  justify-self: center;
+  margin-top: 100px;
+  box-shadow: 8px 8px;
+}
+
+.bottle img {
+  width: 800px;
+}
+
+#spn1 {
+  font-size: 45px;
+  color: red;
+}
+
+
+.navigation ul {
+  box-shadow: 5px 5px;
+  display: flex;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  gap: 200px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.navigation ul {
+  background-color: hsl(62, 83%, 61%);
+  padding: 8px;
+}
+.navigation ul li {
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: rgb(79, 78, 18);
+}
+
+.navigation ul li a:hover {
+  color: rgb(173, 173, 26);
+  cursor: pointer;
+}
+
+.shop_box {
+  width: 750px;
+  height: 500px;
+  background-color: hsl(60, 67%, 52%);
+  border-radius: 30px;
+  justify-self: center;
+  margin-top: 100px;
+  border: 3px solid red;
+}
+
+.shop_box h3 {
+  text-align: center;
+  color: red;
+  padding-top: 20px;
+  font-size: 32px;
+}
+
+#inp1 {
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px solid rgb(195, 218, 20);
+}
+
+form {
+  justify-self: center;
+}
+
+#btn1 {
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  justify-self: center;
+  margin-left: 305px;
+  margin-top: 45px;
+  color: rgb(185, 38, 38);
+  font-size: 16px;
+  background-color: yellow;
+  border: 2px solid rgb(232, 236, 21);
+}
+
+#btn1:hover {
+  background-color: rgba(234, 255, 0, 0.649);
+  cursor: pointer;
+}
+
+.image {
+  justify-self: center;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  background-color: hsl(60, 67%, 52%);
+  padding: 100px;
+  border-radius: 30px;
+  border: 2px solid yellow;
+  box-shadow: 5px 5px;
+}
+
+.mini_text,
+.mini_text2 {
+  background-color: hsl(60, 91%, 43%);
+  color: rgb(102, 102, 26);
+  padding: 20px;
+  font-size: 35px;
+  border-radius: 10px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.mini_text p {
+  text-align: center;
+}
+
+.mini_text p span {
+  color: red;
+}
+
+.mini_text2 span {
+  color: red;
+}
+
+.commentar_box {
+  width: 600px;
+  height: 110px;
+  background-color: rgba(228, 239, 30, 0.627);
+  margin-top: 100px;
+  border-radius: 30px;
+}
+
+.commentar_box p {
+  text-align: center;
+  font-size: 22px;
+  color: red;
+}
+
+.commentar_box input {
+  width: 240px;
+  justify-self: center;
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px solid rgb(195, 218, 20);
+  margin-left: 161px;
+}
+
+.number_box {
+  width: 600px;
+  height: 210px;
+  background-color: rgba(228, 239, 30, 0.627);
+  margin-top: 100px;
+  border-radius: 30px;
+  justify-self: center;
+}
+
+.number_box p {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(59, 59, 9);
+}
+
+.number_box button:hover {
+  background-color: rgb(246, 229, 0);
+}
+
+#pp1 {
+  padding-top: 20px;
+}
+
+.number_box button a {
+  text-decoration: none;
+  color: red;
+}
+
+.number_box button {
+  justify-content: center;
+  margin-left: 200px;
+  width: 200px;
+  height: 45px;
+  border-radius: 30px;
+  margin-top: 30px;
+  background-color: yellow;
+  border: 2px solid yellow;
+  font-size: 17px;
+  color: red;
+}
+
+
+@media (max-width: 600px) {
+  .navigation ul {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .bottle img,
+  .image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .shop_box,
+  .number_box,
+  .commentar_box {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  #inp1 {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #btn1 {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .mini_text,
+  .mini_text2 {
+    font-size: 24px;
+    padding: 10px;
+    margin: 40px 10px;
+  }
+
+  .commentar_box input {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .number_box button {
+    margin: 20px auto;
+    display: block;
+  }
+}
